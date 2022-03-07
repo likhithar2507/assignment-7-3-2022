@@ -1,0 +1,7 @@
+file1= open("String_length.txt", 'a')
+data= file1.write("\n")
+User_Input = input("enter a String: ")
+data = User_Input+","+str(len(User_Input))
+file1.write(data)
+print("Data  is successfully written in the file.")
+file1.close()
